@@ -1,0 +1,60 @@
+body {
+    background: url("encriptador.gif");
+    background-size: cover;
+  }
+  
+.container {
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+
+  .titulo {
+    color: white;
+    text-align: center;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .label {
+    color: white;
+    margin-right: 10px;
+  }
+
+.button-container {
+    display: flex;
+    gap: 100px;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Color de fondo del botón al pasar el cursor */
+  }
+  
+  .button:focus {
+    outline: none; /* Quita el contorno al enfocar el botón */
+  }

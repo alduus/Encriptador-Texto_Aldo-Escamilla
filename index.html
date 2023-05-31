@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Encriptador y Desencriptador de Frases</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="titulo">Encriptador y Desencriptador de Frases</h1>
+
+    <div class="input-container">
+      <label for="input" class="label">Frase:</label>
+      <input type="text" id="input" placeholder="Ingresa la frase">
+    </div>
+    <br>
+    <div class="input-container">
+      <label for="output" class="label">Resultado:</label>
+      <input type="text" id="output" placeholder="Resultado" readonly>
+    </div>
+    <br>
+    <div class="button-container">
+      <button onclick="encrypt()">Encriptar</button>
+      <button onclick="decrypt()">Desencriptar</button>
+    </div>
+  </div>
+
+  <script src="JS.js"></script>
+</body>
+</html>
+
+
